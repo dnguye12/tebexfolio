@@ -4,6 +4,7 @@ import { montserrat } from "@/lib/fonts";
 import { ThemeProvider } from "@/components/theme-provider";
 import Loader from "./loader";
 import { TransitionProvider } from "@/components/transition-provider";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: "tjktakbuonngu",
@@ -27,6 +28,7 @@ export default function RootLayout({
           <TransitionProvider>
             <Loader />
             {children}
+            <Analytics />
           </TransitionProvider>
         </ThemeProvider>
       </body>
