@@ -10,9 +10,9 @@ import {
 const Contact = () => {
     return (
         <div className="container mx-auto py-12 flex flex-col justify-center items-center px-8 lg:px-0">
-            <h2 className="text-3xl tracking-wide sm:text-4xl md:text-4xl font-semibold text-neutral-100 mb-8">📝 Hire Me</h2>
-            <p className="text-base leading-relaxed text-neutral-400 sm:text-lg md:text-lg">Ready to bring your project to life? Get in touch below to start.</p>
-            <p className="text-base leading-relaxed text-neutral-400 sm:text-lg md:text-lg !mt-1">I usually respond within 3 hours.</p>
+            <h2 className="text-3xl tracking-wide sm:text-4xl md:text-4xl font-semibold text-neutral-100 mb-6">📝 Hire Me</h2>
+            <p className="text-base leading-relaxed text-neutral-300 sm:text-lg md:text-lg">Ready to bring your project to life? Get in touch below to start.</p>
+            <p className="text-base leading-relaxed text-neutral-300 sm:text-lg md:text-lg !mt-1">I usually respond within 3 hours.</p>
             <div className="grid grid-cols-1 lg:grid-cols-3 m-6 lg:m-8 w-full gap-6 lg:gap-8">
                 <TooltipProvider
                     delayDuration={100}

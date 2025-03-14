@@ -18,15 +18,15 @@ const AboutMe = () => {
                         <h3 className="font-semibold text-3xl tracking-wide sm:text-4xl md:text-4xl">
                             Hello, I am tjktakbuonngu.
                         </h3>
-                        <p className="text-base leading-relaxed text-neutral-400 sm:text-lg md:text-lg"
+                        <p className="text-base leading-relaxed text-neutral-300 sm:text-lg md:text-lg"
                         >
                             I am a freelance website designer and developer with expertise in creating custom solutions.
                         </p>
-                        <p className="text-base leading-relaxed text-neutral-400 sm:text-lg md:text-lg !mt-1"
+                        <p className="text-base leading-relaxed text-neutral-300 sm:text-lg md:text-lg !mt-1"
                         >
                             I specialize in designing and developing websites for gaming servers, including platforms such as Minecraft, FiveM, and more.
                         </p>
-                        <p className="text-base leading-relaxed text-neutral-400 sm:text-lg md:text-lg !mt-1">
+                        <p className="text-base leading-relaxed text-neutral-300 sm:text-lg md:text-lg !mt-1">
                             My goal is to deliver high-quality, efficient, and visually appealing solutions that enhance user experiences.
                         </p>
 

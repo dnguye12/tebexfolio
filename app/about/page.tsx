@@ -7,6 +7,7 @@ import SmoothScroll from '@/components/smooth-scroll';
 import AboutMe from "./components/about-me";
 import Footer from "./components/footer";
 import Contact from "./components/contact";
+import Reviews from "./components/reviews";
 
 const AboutPage = () => {
     return (
@@ -19,6 +20,8 @@ const AboutPage = () => {
                     </div>
                     <Separator className="bg-neutral-700" />
                     <AboutMe />
+                    <Separator className="bg-neutral-700" />
+                    <Reviews />
                     <Separator className="bg-neutral-700" />
                     <Contact />
                 </main>
