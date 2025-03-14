@@ -6,7 +6,7 @@ import Loader from "./loader";
 import { TransitionProvider } from "@/components/transition-provider";
 
 export const metadata: Metadata = {
-  title: "Projects",
+  title: "tjktakbuonngu",
   description: "tjktakbuonngu Freelance Portfolio",
 };
 
